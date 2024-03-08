@@ -4,7 +4,7 @@ import { Product } from "./types";
 export const products:Product[]=[
   {
     id:1,
-    image:['/images/t-shirts/2.jpg'],
+    image:['/images/t-shirts/6.jpg'],
     title:'Blue Check Line T-Shirt',
     description:
   `  The "Blue Check Line T-Shirt" is a casual yet stylish garment featuring a blue checkered pattern. This t-shirt offers a blend of classic design with contemporary flair, perfect for adding a touch of sophistication to your everyday wardrobe.`,

@@ -18,7 +18,7 @@ const Categories = () => {
             <Link href={"/T-shirts"}>
               <Image
                 alt="T-shirts"
-                src="/images/t-shirts/6.jpg "
+                src="/images/t-shirts/2.jpg "
                 width={260}
                 height={260}
                 className="rounded-xl duration-500 group-hover:scale-125 border group-hover:border-gray-700"
