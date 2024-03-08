@@ -29,100 +29,48 @@ const Categories = () => {
                 className="rounded-xl duration-500 group-hover:scale-125 border group-hover:border-gray-700"
               />
                
-               <div className=' hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
+               <div className=' hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
                <h1 className="uppercase">T-shirt</h1>
                </div>
-               <div className='block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full'>
-               <h1 className="uppercase">T-shirt</h1>
-               </div>
+               <div className="hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full">
+                <h1 className="uppercase">T-shirt</h1>
+              </div>
             </Link>
          </div>
          {/*category2*/}
-         <div className="mt-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative">
-            <Link href={"/coats"}>
-              <Image
-                alt="Coat"
-                src="/images/coat/Women's Blue Wool Trench Coat _ Trench Coat _ Wool Trench Coat.jpg "
-                width={260}
-                height={260}
-                className="rounded-xl duration-500 group-hover:scale-125"
-              />
-               <div className="hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full">
-                <h1 className="uppercase">Coats</h1>
-              </div>
-              <div className="block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full">
-                <h1 className="uppercase">Coats</h1>
-              </div>
+         <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
+            <Link href={"/pants"}>
+               <Image src="/images/coat/Women's Blue Wool Trench Coat _ Trench Coat _ Wool Trench Coat.jpg" alt="topss" width={350} height={350} className='rounded-xl duration-500 group-hover:scale-125 ' />
+               <div className=' hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500  scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>PANTS</h1>
+               </div>
+               <div className=' block lg:hidden absolute bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>PANTS</h1>
+               </div>
             </Link>
-          </div>
-          <div className="mt-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative">
+         </div>
+         <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
             <Link href={"/accessories"}>
-              <Image
-                alt="accessories"
-                src="/images/accessories/Promise Rings_ 22 The Most Popular Ring Ideas For Your Love.jpg "
-                width={260}
-                height={260}
-                className="rounded-xl duration-500 group-hover:scale-125"
-              />
-               <div className="hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full">
-                <h1 className="uppercase">Accessories</h1>
-              </div>
-              <div className="block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full">
-                <h1 className="uppercase">Accessories</h1>
-              </div>
-            </Link>
-          </div>
-          <div className="mt-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative">
+               <Image src="/image/ni.jpg" alt="topss" width={300} height={300} className='rounded-xl duration-500 group-hover:scale-125 ' />
+               <div className='hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>ACCESSORIES</h1>
+               </div>
+               <div className='block lg:hidden absolute bottom-6 duration-500 scrol-l-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>ACCESSORIES</h1>
+               </div>
+            </Link>-
+         </div>
+         <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
             <Link href={"/shoes"}>
-              <Image
-                alt="shoes"
-                src="/images/shoes/Rhinestone Decor Point Toe Back Zipper Flats.jpg "
-                width={260}
-                height={260}
-                className="rounded-xl duration-500 group-hover:scale-125"
-              />
-             <div className="hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full">
-                <h1 className="uppercase">Shoes</h1>
-              </div>
-              <div className="block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full">
-                <h1 className="uppercase">Shoes</h1>
-              </div>
+               <Image src="/image/ss.jpg" alt="topss" width={300} height={300} className='rounded-xl duration-500 group-hover:scale-125 ' />
+               <div className='hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>SHOES</h1>
+               </div>
+               <div className='block lg:hidden absolute:bottom-6 duration-500  scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>SHOES</h1>
+               </div>
             </Link>
-          </div>
-          <div className="mt-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative">
-            <Link href={"purfumes"}>
-              <Image
-                alt="purfumes"
-                src="/images/purfumes/Lady million.jpg "
-                width={260}
-                height={260}
-                className="rounded-xl duration-500 group-hover:scale-125"
-              />
-              <div className="hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full">
-                <h1 className="uppercase">Purfumes</h1>
-              </div>
-              <div className="block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full">
-                <h1 className="uppercase">Purfumes</h1>
-              </div>
-            </Link>
-          </div>
-          <div className="mt-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative">
-            <Link href={"/bags"}>
-              <Image
-                alt="bags"
-                src="/images/bags/GUESS_ Global Lifestyle Brand for Women, Men and Kids.jpg "
-                width={260}
-                height={260}
-                className="rounded-xl duration-500 group-hover:scale-125"
-              />
-              <div className="hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full">
-                <h1 className="uppercase">Bags</h1>
-              </div>
-              <div className="block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full">
-                <h1 className="uppercase">Bags</h1>
-              </div>
-            </Link>
-          </div>
+         </div>
          </div>
          <div />
          <div />
