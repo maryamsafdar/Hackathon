@@ -21,7 +21,7 @@ const Categories = () => {
         
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
             <Link href={"/T-shirts"}>
-               <Image src="/images/t-shirts/f451baa75283c687b74c0ad0469e1179.jpg" alt="t-shirts" width={260} height={260} className='rounded-xl duration-500 group-hover:scale-125 ' />
+               <Image src="/images/t-shirts/f451baa75283c687b74c0ad0469e1179.jpg" alt="t-shirts" width={240} height={240} className='rounded-xl duration-500 group-hover:scale-125 ' />
                
                <div className=' hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
                   <h1  className="uppercase">T-Shirts</h1>
@@ -33,7 +33,7 @@ const Categories = () => {
          </div>
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
             <Link href={"/coats"}>
-               <Image src="/images/coat/Winter Women Faux lamb Wool Coat 2023 New Loose Long-Sleeve Outerwear Middle-aged Female Cotton Padded Jacket Parkas Casual Tops bean paste-4XL.jpg " alt="coat" width={260} height={260} className='rounded-xl duration-500 group-hover:scale-125 ' />
+               <Image src="/images/coat/Women's Blue Wool Trench Coat _ Trench Coat _ Wool Trench Coat.jpg  " alt="coat" width={260} height={260} className='rounded-xl duration-500 group-hover:scale-125 ' />
                
                <div className=' hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
                   <h1  className="uppercase">Coats</h1>
