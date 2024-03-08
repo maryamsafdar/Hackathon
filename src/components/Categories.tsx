@@ -20,26 +20,37 @@ const Categories = () => {
          <div className='grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 gap-4'> 
          {/*categorie 1*/}
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-            <Link href={"/tops"}>
-               <Image src="/images/t-shirts/6.jpg " alt="topss" width={300} height={300} className='rounded-xl duration-500 group-hover:scale-125 ' />
-               
+         <Link href={"/T-shirts"}>
+              <Image
+                alt="T-shirts"
+                src="/images/t-shirts/6.jpg "
+                width={260}
+                height={260}
+                className="rounded-xl duration-500 group-hover:scale-125 border group-hover:border-gray-700"
+              />
                <div className=' hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
-                  <h1 className='left-3'>TOPS</h1>
+               <h1 className="uppercase">T-shirt</h1>
                </div>
                <div className='block lg:hidden absolute bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
-                  <h1 className='left-3'>TOPS</h1>
+               <h1 className="uppercase">T-shirt</h1>
                </div>
             </Link>
          </div>
          {/*category2*/}
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-            <Link href={"/pants"}>
-               <Image src="/images/accessories/Promise Rings_ 22 The Most Popular Ring Ideas For Your Love.jpg" alt="topss" width={350} height={350} className='rounded-xl duration-500 group-hover:scale-125 ' />
+         <Link href={"/coats"}>
+              <Image
+                alt="Coat"
+                src="/images/coat/Women's Blue Wool Trench Coat _ Trench Coat _ Wool Trench Coat.jpg "
+                width={260}
+                height={260}
+                className="rounded-xl duration-500 group-hover:scale-125"
+              />
                <div className=' hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500  scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
-                  <h1 className='left-3'>PANTS</h1>
+               <h1 className="uppercase">Coats</h1>
                </div>
                <div className=' block lg:hidden absolute bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
-                  <h1 className='left-3'>PANTS</h1>
+               <h1 className="uppercase">Coats</h1>
                </div>
             </Link>
          </div>
