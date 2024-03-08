@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="mb-[100px]">
       <div
-        className="hero min-h-[80vh] custom-img bg-center no-repeat"
+        className="hero min-h-[80vh] custom-img bg-center no-repeat bg-fixed"
         style={{ backgroundImage: "url(/images/banner.png)" }}
       >
         <div className="hero-overlay bg-opacity-40"></div>

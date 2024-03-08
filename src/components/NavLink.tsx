@@ -76,7 +76,7 @@ export function NavigationMenuDemo() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Women</NavigationMenuTrigger>
           <NavigationMenuContent>
-          <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] bg-myGray ">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] bg-myGray ">
               {components.map((component) => (
                 <Link  key={component.title}
                  
@@ -92,7 +92,7 @@ export function NavigationMenuDemo() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/About" legacyBehavior passHref>
+          <Link href="/about" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               About
             </NavigationMenuLink>
@@ -100,7 +100,7 @@ export function NavigationMenuDemo() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/Contact" legacyBehavior passHref>
+          <Link href="/contact" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Contact
             </NavigationMenuLink>
@@ -118,22 +118,22 @@ const ListItem = React.forwardRef<
 >(({ className, title, children, ...props }, ref) => {
   return (
     <li>
-    <NavigationMenuLink asChild>
-      <a
-        ref={ref}
-        className={cn(
-          "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground group",
-          className
-        )}
-        {...props}
-      >
-        <div className="text-sm font-medium leading-none group hover:text-myOrange duration-500">{title}</div>
-        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground hover:text-myBlue duration-300 ">
-          {children}
-        </p>
-      </a>
-    </NavigationMenuLink>
-  </li>
+      <NavigationMenuLink asChild>
+        <a
+          ref={ref}
+          className={cn(
+            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground group",
+            className
+          )}
+          {...props}
+        >
+          <div className="text-sm font-medium leading-none group hover:text-myOrange duration-500">{title}</div>
+          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground hover:text-myBlue duration-300 ">
+            {children}
+          </p>
+        </a>
+      </NavigationMenuLink>
+    </li>
   )
 })
 ListItem.displayName = "ListItem"

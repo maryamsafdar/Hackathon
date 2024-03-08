@@ -9,6 +9,7 @@ import { addCart, deleteItem, subtractCart } from "@/app/store/features/Cart";
 const CartCard = () => {
   const cartArray = useAppSelector((state) => state.cart);
   const dispatch = useAppDispatch();
+  
   return (
     <>
       {cartArray.length >= 1 &&
@@ -55,23 +56,25 @@ const CartCard = () => {
                     <LuPlus className="w-3 h-3 group-hover:text-gray-800 text-white" />
                   </Button>
                 </div>
-                <div className="lg:hidden flex-col items-end gap-5">
+                <div 
+                
+                className="lg:hidden flex-col items-end gap-5">
                   <h3 className="mt-2 font-semibold text-sm leading-none text-gray-800">
                     <span>Price:&nbsp;</span>&#36;
                     {item.discount > 0
-                      ? (item.price - (item.price * item.discount) / 100)  *
+                      ? (item.price - ((item.price * item.discount) / 100))  *
                         item.quantity
                       : item.price * item.quantity}
                   </h3>
-                  
                   <FaTrash 
-                   onClick={() => dispatch(deleteItem(item.uId))}
-                  className="mt-2 text-base font-semibold leading-none line-clamp-1 text-red-600 cursor-pointer"
-                   />
+                    onClick={() => dispatch(deleteItem(item.uID))}
+                  className="mt-2 text-base font-semibold leading-none line-clamp-1 text-red-600 cursor-pointer" />
                 </div>
               </div>
             </div>
-            <div className="hidden lg:flex flex-col items-end gap-5">
+            <div 
+             
+            className="hidden lg:flex flex-col items-end gap-5">
               <h3 className="font-semibold text-sm leading-none text-gray-800">
                 <span>Price:&nbsp;</span>&#36;
                 {item.discount > 0
@@ -80,7 +83,7 @@ const CartCard = () => {
                   : item.price * item.quantity}
               </h3>
               <FaTrash
-                onClick={() => dispatch(deleteItem(item.uId))}
+               onClick={() => dispatch(deleteItem(item.uID))}
                 className=" text-base font-semibold leading-none line-clamp-1 text-red-600 cursor-pointer"
               />
             </div>

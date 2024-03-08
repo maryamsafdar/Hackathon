@@ -4,8 +4,7 @@ import { MdShoppingCart } from "react-icons/md";
 import { IoIosHeart } from "react-icons/io";
 import Image from "next/image";
 import Link from "next/link";
-import BestSellingCardAddToCart from "./BestSellingCardAddToCart";
-
+import BestSellingCardAddToCart from "./BeastSellingCardAddToCart";
 
 const BestSellingCard = ({
   src,
@@ -56,7 +55,7 @@ const BestSellingCard = ({
                   ${price}
                 </p>
                 {discount > 0 && (
-                  <p className="mt-2 scroll-m-20 text-base font-semibold tracking-tight text-gray-700 line-clamp-1">
+                  <p className="mt-2  scroll-m-20 text-base font-semibold tracking-tight text-gray-700 line-clamp-1">
                     ${price -(price*discount)/100}
                   </p>
                 )}
@@ -66,7 +65,10 @@ const BestSellingCard = ({
         </Link>
         <div>
           <div className=" bottom-2 absolute right-2 "><BestSellingCardAddToCart slug={slug}/></div>
-         
+         {/* <Button className="group bg-gray-800 hover:bg-transparent text-white hover:text-gray-700 scroll-m-20 text-xs font-semibold tracking-tight rounded-xl bottom-2 absolute right-2 hover:shadow-lg ">
+            <MdShoppingCart className="mr-2 w-4 h-4 group-hover:text-myOrange duration 300" />
+            Add To Cart
+          </Button>*/}
           <Button className="group bg-gray-800 hover:bg-transparent text-white hover:text-gray-700 scroll-m-20 text-xs font-semibold tracking-tight rounded-xl bottom-2 absolute left-2 hover:shadow-lg ">
             <IoIosHeart className="mr-2 w-4 h-4 group-hover:text-myOrange duration 300" />
             Buy Now

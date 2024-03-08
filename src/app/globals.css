@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
  
- 
 .myDiscount{
-  transform: rotate(-90deg) translate(0,-69px);
-  transform-origin: 100% 0;
+    transform: rotate(-90deg) translate(0,-69px);
+    transform-origin: 100% 0;
 }

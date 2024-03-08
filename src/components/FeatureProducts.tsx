@@ -7,7 +7,7 @@ import BestSellingCard from "./BestSellingCard";
 import { useAppSelector } from "@/app/store/Hooks";
 
 const FeatureProducts = () => {
-  const bestSell = useAppSelector((state) => state.products.slice(0,9));
+  const bestSell = useAppSelector((state) => state.products.slice(46,54));
 
   var settings = {
     arrows: false,

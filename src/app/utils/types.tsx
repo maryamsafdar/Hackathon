@@ -10,9 +10,9 @@ export type Product={
     description:string,
     size:string[] ,
     color:string[],
-    quantity:number,
-    discount:number,
-    uID: string | number | undefined
+    quantity:number ,
+    discount?:number | any,
+    
 } 
 export type Cart={
     id:number,
@@ -21,10 +21,10 @@ export type Cart={
     slug:string,
     price:number,
     category:string,
-    size:string[],
+    size:string,
     quantity:number,
-    discount:number,
-    uId:string | number | undefined
+    discount?:number | any,
+    uID:string | number | undefined | any,
     color:string
 
 }

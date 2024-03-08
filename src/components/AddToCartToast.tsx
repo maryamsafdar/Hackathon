@@ -1,11 +1,12 @@
 "use client"
 import { useAppDispatch } from "@/app/store/Hooks";
 import React from "react";
-import { ToastContainer, toast } from "react-toastify";
+
 import "react-toastify/dist/ReactToastify.css";
 import { Button } from "./ui/button";
 import { MdShoppingCart } from "react-icons/md";
 import { addToCart } from "@/app/store/features/Cart";
+import { ToastContainer, toast } from "react-toastify";
 
 
 const AddToCartToast = ({cartItem}:any) => {

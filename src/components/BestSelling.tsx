@@ -20,7 +20,7 @@ const BestSelling = () => {
         </div>
       </div>
       <div className="flex flex-wrap items-center justify-center text-center gap-5">
-        {bestSell.map((items:any, i) => (
+        {bestSell.map((items:any, i:any) => (
           <BestSellingCard
             key={i}
             src={items.image[0]}

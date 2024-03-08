@@ -62,7 +62,7 @@ const Navbar = () => {
 
           <Image
             alt="logo"
-            src={"/images/logo.png"}
+            src={"/images/logo1.png"}
             width={200}
             height={200}
             className="pl-4 hidden lg:block"
@@ -71,7 +71,7 @@ const Navbar = () => {
         <div className="navbar-center">
           <Image
             alt="logo"
-            src={"/images/logo.png"}
+            src={"/images/logo1.png"}
             width={200}
             height={200}
             className="block lg:hidden"

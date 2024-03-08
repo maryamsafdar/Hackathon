@@ -1,6 +1,9 @@
 import type { Config } from "tailwindcss"
 
 const config = {
+  daisyui: {
+    themes: ["light"],
+  },
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
@@ -23,6 +26,11 @@ const config = {
         myGray:"#EEEEEE",
         myRed:"#EB1D36",
         myOrange:"#EE7214",
+        myFacebook:"#316FF6",
+        myTwitter:"#1DA1F2",
+        InstaGramgradientStart: '#405DE6',
+        myLinkedin:"#0072b1",
+        myInstagram:"gradient-to-r from-blue-500 via-purple-500 to-pink-500",
         myBlue:"#3468C0",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -79,7 +87,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"),require('daisyui')],
+  plugins: [require("tailwindcss-animate"), require("daisyui")],
 } satisfies Config
 
 export default config

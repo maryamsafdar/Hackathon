@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 const Footer = () => {
   return (
     <div>
@@ -73,7 +74,7 @@ const Footer = () => {
                 <li>
                   <Link
                     href={"/"}
-                    className="text-base text-gray-700 hover:text-gray-500 font-semibold tracking-tight "
+                    className="text-base text-gray-700 hover:text-gray-500 font-base tracking-tight "
                   >
                     Advertisement
                   </Link>
@@ -145,7 +146,7 @@ const Footer = () => {
         <div>
           
           <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-          <Image alt="logo" src={'/images/logo.png'} width={150} height={150}  />
+          <Image alt="logo" src={'/images/logo1.png'} width={150} height={150}  />
           
             <p className="text-base  sm:ml-6 sm:mt-0 mt-4 text-black px-15 ">
               © 2024 <b> MF Market </b>

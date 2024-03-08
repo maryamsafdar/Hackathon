@@ -11,12 +11,12 @@ export const cartSlice = createSlice({
   initialState,
   reducers: {
    addToCart(state,action){
-    let uID=Math.floor(1000+Math.random()*9000)
+    let uID=Math.floor(1000+Math.random()*900)
 let newObj= {...action.payload,uID}
 state.push(newObj)
    },
    deleteItem(state,{payload}){
-    return state.filter((val)=>val.uId !== payload)
+    return state.filter((val)=>val.uID !== payload)
     },
     addCart(state,action){
       let obj = state.find  ((val)=>
@@ -37,10 +37,10 @@ state.push(newObj)
       val.size == action.payload.size) ;
       if(obj !== undefined){
        if(obj.quantity<=1){
-        return state.filter((val)=>val.uId !== obj?.uId)
+        return state.filter((val)=>val.uID !== obj?.uID)
        }
        --obj.quantity;
-       let newState= state.filter((val)=>val.uId!== obj?.uId)
+       let newState= state.filter((val)=>val.uID!== obj?.uID)
        state =[...newState,obj];
        return;
       }

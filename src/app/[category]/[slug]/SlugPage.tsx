@@ -1,14 +1,13 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { IoIosHeart } from "react-icons/io";
-
+import { MdShoppingCart } from "react-icons/md";
 import { LuMinus, LuPlus } from "react-icons/lu";
 import SlugComponent from "@/components/SlugComponent";
 import { useAppDispatch, useAppSelector } from "@/app/store/Hooks";
 import { useState } from "react";
+import { addToCart } from "@/app/store/features/Cart";
 import AddToCartToast from "@/components/AddToCartToast";
-
-
 
 const SlugPage = ({ params }: { params: { slug: string } }) => {
   const product = useAppSelector((state) => state.products);
@@ -83,7 +82,7 @@ const SlugPage = ({ params }: { params: { slug: string } }) => {
                 <span className="mr-3 scroll-m-20 text-base font-semibold tracking-tight text-gray-800">
                   Color
                 </span>
-                {slug[0].color.map((item: any, i: any) => (
+                {slug[0].color.map((item: any, i: number) => (
                   <button
                     key={i}
                     onClick={() => setcartItem({ ...cartItem, color: item })}
@@ -107,7 +106,7 @@ const SlugPage = ({ params }: { params: { slug: string } }) => {
                     <option disabled value="Select Size">
                       Select Size
                     </option>
-                    {slug[0].size.map((item: any, i: any) => (
+                    {slug[0].size.map((item: any, i: number) => (
                       <option key={i} value={item}>
                         {item}
                       </option>
@@ -158,7 +157,7 @@ const SlugPage = ({ params }: { params: { slug: string } }) => {
                 </span>
 
                 {cartItem.discount > 0 && (
-                  <span className="ml-5 scroll-m-20 text-2xl font-semibold tracking-tight text-gray-800">
+                  <span className="ml-3 scroll-m-20 text-2xl font-semibold tracking-tight text-gray-800">
                     $
                     {(cartItem.price -
                       (cartItem.price * cartItem.discount) / 100) *
@@ -167,8 +166,14 @@ const SlugPage = ({ params }: { params: { slug: string } }) => {
                 )}
               </div>
 
-            
-              <AddToCartToast cartItem={cartItem} />
+             {/* <Button
+                onClick={() => dispatch(addToCart(cartItem))}
+                className="group bg-gray-800 hover:bg-transparent text-white hover:text-gray-700 scroll-m-20 text-xs font-semibold tracking-tight rounded-xl hover:shadow-lg  "
+              >
+                <MdShoppingCart className="mr-2 w-4 h-4 group-hover:text-myOrange duration 300" />
+                Add To Cart
+              </Button>*/}
+              <AddToCartToast cartItem={cartItem} className="ml-5"/>
             </div>
             <Button className="mt-2 w-full group bg-gray-800 hover:bg-transparent text-white hover:text-gray-700 scroll-m-20 text-xs font-semibold tracking-tight rounded-xl hover:shadow-lg ">
               <IoIosHeart className="mr-2 w-4 h-4 group-hover:text-myOrange duration 300" />
