@@ -18,7 +18,7 @@ const Categories = () => {
             <Link href={"/T-shirts"}>
               <Image
                 alt="T-shirts"
-                src="/images/t-shirts/2.jpg "
+                src={"/images/t-shirts/2.jpg "}
                 width={260}
                 height={260}
                 className="rounded-xl duration-500 group-hover:scale-125 border group-hover:border-gray-700"
@@ -35,7 +35,7 @@ const Categories = () => {
             <Link href={"/coats"}>
               <Image
                 alt="Coat"
-                src="/images/coat/Women's Blue Wool Trench Coat _ Trench Coat _ Wool Trench Coat.jpg "
+                src={"/images/coat/Women's Blue Wool Trench Coat _ Trench Coat _ Wool Trench Coat.jpg "}
                 width={260}
                 height={260}
                 className="rounded-xl duration-500 group-hover:scale-125"
@@ -52,7 +52,7 @@ const Categories = () => {
             <Link href={"/accessories"}>
               <Image
                 alt="accessories"
-                src="/images/accessories/Promise Rings_ 22 The Most Popular Ring Ideas For Your Love.jpg "
+                src={"/images/accessories/Promise Rings_ 22 The Most Popular Ring Ideas For Your Love.jpg "}
                 width={260}
                 height={260}
                 className="rounded-xl duration-500 group-hover:scale-125"
@@ -69,7 +69,7 @@ const Categories = () => {
             <Link href={"/shoes"}>
               <Image
                 alt="shoes"
-                src="/images/shoes/Rhinestone Decor Point Toe Back Zipper Flats.jpg "
+                src={"/images/shoes/Rhinestone Decor Point Toe Back Zipper Flats.jpg "}
                 width={260}
                 height={260}
                 className="rounded-xl duration-500 group-hover:scale-125"
@@ -87,7 +87,7 @@ const Categories = () => {
             <Link href={"purfumes"}>
               <Image
                 alt="purfumes"
-                src="/images/purfumes/Lady million.jpg "
+                src={"/images/purfumes/Lady million.jpg "}
                 width={260}
                 height={260}
                 className="rounded-xl duration-500 group-hover:scale-125"
@@ -104,7 +104,7 @@ const Categories = () => {
             <Link href={"/bags"}>
               <Image
                 alt="bags"
-                src="/images/bags/GUESS_ Global Lifestyle Brand for Women, Men and Kids.jpg "
+                src={"/images/bags/GUESS_ Global Lifestyle Brand for Women, Men and Kids.jpg "}
                 width={260}
                 height={260}
                 className="rounded-xl duration-500 group-hover:scale-125"
