@@ -17,7 +17,7 @@ const Categories = () => {
             </div>
          </div>
          {/*categories strt from here*/}
-         <div className='grid grid-cols-1 md:grid-cols2 lg:grid-cols-4 gap-4'> 
+         <div className='grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 gap-4'> 
          {/*categorie 1*/}
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
             <Link href={"/tops"}>
