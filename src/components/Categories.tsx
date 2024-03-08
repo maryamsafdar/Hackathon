@@ -20,14 +20,13 @@ const Categories = () => {
          <div className='grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 gap-4'> 
          {/*categorie 1*/}
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-            <Link href={"/tops"}>
-               <Image src="/images/t-shirts/6.jpg " alt="topss" width={300} height={300} className='rounded-xl duration-500 group-hover:scale-125 ' />
-               
-               <div className=' hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
-                  <h1 className='left-3'>TOPS</h1>
+            <Link href={"/pants"}>
+               <Image src="/images/accessories/ca009b99369970bd676e45e203f589c5.jpg" alt="topss" width={350} height={350} className='rounded-xl duration-500 group-hover:scale-125 ' />
+               <div className=' hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500  scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='uppercase'>PANTS</h1>
                </div>
-               <div className='block lg:hidden absolute bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
-                  <h1 className='left-3'>TOPS</h1>
+               <div className='block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full'>
+                  <h1 className='uppercase'>PANTS</h1>
                </div>
             </Link>
          </div>
