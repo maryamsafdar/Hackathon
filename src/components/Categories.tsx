@@ -6,7 +6,7 @@ const Categories = () => {
       <div className=' body-font mb-[100px] mt-[100px]'>
          <div className="container px-5 mx-auto">
             <div className="text-center mb-10">
-               <h1 className=" text-gray-700 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl">
+               <h1 className=" scroll-m-20 text-xl font-extrabold tracking-tight lg:text-3xl">
                   Our Categories
                </h1>
                <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
@@ -17,78 +17,51 @@ const Categories = () => {
             </div>
          </div>
          {/*categories strt from here*/}
-         <div className='grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 gap-4'> 
+         <div className='grid grid-cols-1 md:grid-cols2 lg:grid-cols-4 gap-4'> 
          {/*categorie 1*/}
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-            <Link href={"/T-shirts"}>
-            <Image
-                alt="T-shirts"
-                src="/images/t-shirts/6.jpg "
-                width={260}
-                height={260}
-                className="rounded-xl duration-500 group-hover:scale-125 border group-hover:border-gray-700"
-              />
+            <Link href={"/tops"}>
+               <Image src="ages/shoes/Rhinestone Decor Point Toe Back Zipper Flats.jpg " alt="topss" width={300} height={300} className='rounded-xl duration-500 group-hover:scale-125 ' />
                
-               <div className=' hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
-               <h1 className="uppercase">T-shirt</h1>
+               <div className=' hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>TOPS</h1>
                </div>
-               <div className='block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full'>
-               <h1 className="uppercase">T-shirt</h1>
+               <div className='block lg:hidden absolute bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>TOPS</h1>
                </div>
             </Link>
          </div>
          {/*category2*/}
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-         <Link href={"/coats"}>
-              <Image
-                alt="Coat"
-                src="/images/coat/Women's Blue Wool Trench Coat _ Trench Coat _ Wool Trench Coat.jpg "
-                width={260}
-                height={260}
-                className="rounded-xl duration-500 group-hover:scale-125"
-              />
-               
-               <div className='hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
-               <h1 className="uppercase">Coats</h1>
+            <Link href={"/pants"}>
+               <Image src="/images/accessories/Promise Rings_ 22 The Most Popular Ring Ideas For Your Love.jpg" alt="topss" width={350} height={350} className='rounded-xl duration-500 group-hover:scale-125 ' />
+               <div className=' hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500  scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>PANTS</h1>
                </div>
-               <div className='block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full'>
-               <h1 className="uppercase">Coats</h1>
+               <div className=' block lg:hidden absolute bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>PANTS</h1>
                </div>
             </Link>
          </div>
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-         <Link href={"/accessories"}>
-              <Image
-                alt="accessories"
-                src="/images/accessories/Promise Rings_ 22 The Most Popular Ring Ideas For Your Love.jpg "
-                width={260}
-                height={260}
-                className="rounded-xl duration-500 group-hover:scale-125"
-              />
-               
-               <div className='hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
-               <h1 className="uppercase">Accessories</h1>
+            <Link href={"/accessories"}>
+               <Image src="/images/coat/Women's Blue Wool Trench Coat _ Trench Coat _ Wool Trench Coat.jpg" alt="topss" width={300} height={300} className='rounded-xl duration-500 group-hover:scale-125 ' />
+               <div className='hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>ACCESSORIES</h1>
                </div>
-               <div className='block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full'>
-               <h1 className="uppercase">Accessories</h1>
+               <div className='block lg:hidden absolute bottom-6 duration-500 scrol-l-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>ACCESSORIES</h1>
                </div>
-            </Link>
+            </Link>-
          </div>
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-         <Link href={"/shoes"}>
-              <Image
-                alt="shoes"
-                src="/images/shoes/Rhinestone Decor Point Toe Back Zipper Flats.jpg "
-                width={260}
-                height={260}
-                className="rounded-xl duration-500 group-hover:scale-125"
-              />
-               
-               <div className='hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
-               <h1 className="uppercase">Shoes</h1>
+            <Link href={"/shoes"}>
+               <Image src="/images/t-shirts/6.jpg" alt="topss" width={300} height={300} className='rounded-xl duration-500 group-hover:scale-125 ' />
+               <div className='hidden lg:block absolute -bottom-24  group-hover:bottom-6 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>SHOES</h1>
                </div>
-               <div className='block lg:hidden absolute bottom-8  duration-500 z-[100] scroll-m-20 text-2xl font-bold tracking-tight bg-gray-700/70 text-center text-white w-full'>
-               <h1 className="uppercase">Shoes</h1>
+               <div className='block lg:hidden absolute:bottom-6 duration-500  scroll-m-20 text-3xl font-extrabold tracking-tight bg-myWhite/70  text-myOrange w-f'>
+                  <h1 className='left-3'>SHOES</h1>
                </div>
             </Link>
          </div>
