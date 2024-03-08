@@ -24,12 +24,12 @@ const Promotion = () => {
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
               <h1 className="mb-3 scroll-m-20 text-2xl font-semibold tracking-tight uppercase">
-                Unlock up to{" "}
+                Unlock up to
                 <span className="text-myOrange">60% </span>off!🎉
               </h1>
               <p className="mb-5 scroll-m-20 text-medium font-semibold tracking-tight">
-                {" "}
-                Don't miss our flash sale on seasonal favorites!
+               
+              {`  Don't miss our flash sale on seasonal favorites!`}
               </p>
               
             </div>
@@ -43,8 +43,8 @@ const Promotion = () => {
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
               <h1 className="mb-3 scroll-m-20 text-2xl font-semibold tracking-tight uppercase">
-              Explore New Jewelry {" "}
-                <span className="text-myOrange">30%</span> Off!" 🌟💍
+              Explore New Jewelry
+                <span className="text-myOrange">30%</span> Off!🌟💍
               </h1>
               <p className="mb-5 scroll-m-20 text-medium font-semibold tracking-tight">
                 {" "}

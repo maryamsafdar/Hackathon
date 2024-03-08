@@ -11,7 +11,7 @@ const About = () => {
               WELCOME TO <div className='text-blue-800 line-clamp-2'>MARIE SUPER MARKET</div>
             </h2>
             <p className="mt-3 max-w-3xl text-lg leading-6 text-white">
-              We're your one-stop shop for all things fashion and style. Whether you're looking for trendy t-shirts, statement accessories, chic bags, stylish shoes, captivating perfumes, or cozy coats, we've got you covered.
+             {` We're your one-stop shop for all things fashion and style. Whether you're looking for trendy t-shirts, statement accessories, chic bags, stylish shoes, captivating perfumes, or cozy coats, we've got you covered.`}
             </p>
           </div>
           <div className="mt-12 lg:mt-0">
@@ -56,7 +56,7 @@ const About = () => {
               Thank You
             </h2>
             <p className="mt-4 max-w-3xl text-lg text-gray-700">
-              Whether you're shopping for yourself or looking for the perfect gift for a loved one, we're confident that you'll find something special in our curated collection. Thank you for choosing MARIE SUPER MARKET for all your fashion needs!
+             {` Whether you're shopping for yourself or looking for the perfect gift for a loved one, we're confident that you'll find something special in our curated collection. Thank you for choosing MARIE SUPER MARKET for all your fashion needs!`}
             </p>
             <p className="mt-4 max-w-3xl text-lg text-gray-700">
               Happy shopping!
