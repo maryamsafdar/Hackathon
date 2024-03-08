@@ -32,8 +32,8 @@ const Categories = () => {
             </Link>
          </div>
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-            <Link href={"/coats"}>
-               <Image src="/images/coat/Women's Blue Wool Trench Coat _ Trench Coat _ Wool Trench Coat.jpg  " alt="coat" width={260} height={260} className='rounded-xl duration-500 group-hover:scale-125 ' />
+            <Link href={"/Coats"}>
+               <Image src="/images/coat/Women's Blue Wool Trench Coat _ Trench Coat _ Wool Trench Coat.jpg" alt="coat" width={240} height={240} className='rounded-xl duration-500 group-hover:scale-125 ' />
                
                <div className=' hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
                   <h1  className="uppercase">Coats</h1>
@@ -44,7 +44,7 @@ const Categories = () => {
             </Link>
          </div>
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-            <Link href={"/accessories"}>
+            <Link href={"/Accessories"}>
                <Image src="/images/accessories/Promise Rings_ 22 The Most Popular Ring Ideas For Your Love.jpg" alt="accessories" width={260} height={260} className='rounded-xl duration-500 group-hover:scale-125 ' />
                
                <div className=' hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
@@ -56,7 +56,7 @@ const Categories = () => {
             </Link>
          </div>
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-            <Link href={"/shoes"}>
+            <Link href={"/Shoes"}>
                <Image src="/images/shoes/Rhinestone Decor Point Toe Back Zipper Flats.jpg" alt="shoes" width={260} height={260} className='rounded-xl duration-500 group-hover:scale-125 ' />
                
                <div className=' hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
@@ -68,7 +68,7 @@ const Categories = () => {
             </Link>
          </div>
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-            <Link href={"purfumes"}>
+            <Link href={"Purfumes"}>
                <Image src="/images/purfumes/Lady million.jpg" alt="purfume" width={260} height={260} className='rounded-xl duration-500 group-hover:scale-125 ' />
                
                <div className=' hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
@@ -80,7 +80,7 @@ const Categories = () => {
             </Link>
          </div>
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
-            <Link href={"/bags"}>
+            <Link href={"/Bags"}>
                <Image src="/images/bags/GUESS_ Global Lifestyle Brand for Women, Men and Kids.jpg" alt="bag" width={260} height={260} className='rounded-xl duration-500 group-hover:scale-125 ' />
                
                <div className=' hidden lg:block absolute -bottom-24 duration-500 group-hover:bottom-2 scroll-m-20 text-xl font-bold tracking-tight lg:text-2xl bg-gray-700/70 text-center text-white w-full'>
