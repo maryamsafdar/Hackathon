@@ -10,7 +10,7 @@ const About = () => {
               WELCOME TO <span className="text-blue-800">MARIE ONLINE MARKET</span>
             </h2>
             <p className="mt-3 max-w-md sm:max-w-lg text-lg leading-6 text-white">
-              We're your one-stop shop for all things fashion and style. Whether you're looking for trendy t-shirts, statement accessories, chic bags, stylish shoes, captivating perfumes, or cozy coats, we've got you covered.
+             {` We're your one-stop shop for all things fashion and style. Whether you're looking for trendy t-shirts, statement accessories, chic bags, stylish shoes, captivating perfumes, or cozy coats, we've got you covered.`}
             </p>
           </div>
           <div>
@@ -25,7 +25,7 @@ const About = () => {
               Our Mission
             </h2>
             <p className="mt-4 max-w-md sm:max-w-lg text-lg text-gray-700">
-              Our mission is to provide our customers with the latest fashion trends and high-quality products at affordable prices. We believe that everyone deserves to look and feel their best, and our diverse range of products caters to all styles and preferences.
+              {`Our mission is to provide our customers with the latest fashion trends and high-quality products at affordable prices. We believe that everyone deserves to look and feel their best, and our diverse range of products caters to all styles and preferences.`}
             </p>
           </div>
           <div>
@@ -40,7 +40,7 @@ const About = () => {
               Our Commitment
             </h2>
             <p className="mt-4 max-w-md sm:max-w-lg text-lg text-white">
-              At MARIE ONLINE MARKET, customer satisfaction is our top priority. We strive to offer an exceptional shopping experience with fast shipping, easy returns, and responsive customer support. Our team is dedicated to helping you find the perfect items to express your unique personality and elevate your wardrobe.
+             {` At MARIE ONLINE MARKET, customer satisfaction is our top priority. We strive to offer an exceptional shopping experience with fast shipping, easy returns, and responsive customer support. Our team is dedicated to helping you find the perfect items to express your unique personality and elevate your wardrobe.`}
             </p>
           </div>
           <div>
@@ -55,7 +55,7 @@ const About = () => {
               Thank You
             </h2>
             <p className="mt-4 max-w-md sm:max-w-lg text-lg text-gray-700">
-              Whether you're shopping for yourself or looking for the perfect gift for a loved one, we're confident that you'll find something special in our curated collection. Thank you for choosing MARIE ONLINE MARKET for all your fashion needs!
+             {` Whether you're shopping for yourself or looking for the perfect gift for a loved one, we're confident that you'll find something special in our curated collection. Thank you for choosing MARIE ONLINE MARKET for all your fashion needs!`}
             </p>
             <p className="mt-4 max-w-md sm:max-w-lg text-lg text-gray-700">
               Happy shopping!
