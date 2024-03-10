@@ -17,7 +17,7 @@ const Categories = () => {
             </div>
          </div>
         
-         <div className='grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 gap-4'> 
+         <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-1 gap-4'> 
         
          <div className='mb-7 lg:mb-0 overflow-hidden z-10 mx-auto group relative'>
             <Link href={"/T-shirts"}>

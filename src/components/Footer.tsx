@@ -149,7 +149,7 @@ const Footer = () => {
           <Image alt="logo" src={'/images/logo1.png'} width={150} height={150}  />
           
             <p className="text-base  sm:ml-6 sm:mt-0 mt-4 text-black px-15 ">
-              © 2024 <b> MF Market </b>
+              © 2024 <b>Marie Online Market </b>
             </p>
             <p className="text-base text-gray-700 px-40">
               Code by:{" "}
