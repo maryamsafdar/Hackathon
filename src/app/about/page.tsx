@@ -14,7 +14,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <img className="h-64 sm:h-auto w-full object-cover rounded-badge" src="/images/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg" alt="About Us" />
+            <img className="h-64 sm:h-auto w-full object-cover rounded-badge" src="/images/Promotion-Banner.png" alt="About Us" />
           </div>
         </div>
       </div>
