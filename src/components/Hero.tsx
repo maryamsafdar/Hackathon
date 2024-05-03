@@ -5,9 +5,9 @@ const Hero = () => {
     <div className="mb-[100px]">
       <div
         className="hero min-h-[80vh] custom-img bg-center no-repeat bg-fixed"
-        style={{ backgroundImage: "url(/images/banner.png)" }}
+        style={{ backgroundImage: "url(/images/banner1.png)" }}
       >
-        <div className="hero-overlay bg-opacity-40"></div>
+        <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
             <h1 className="mb-5 scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl"> Futuristic    <span className="text-myOrange">Clothes</span></h1>
